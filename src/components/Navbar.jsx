@@ -77,10 +77,10 @@ function Navbar() {
           <Box sx={{ display: 'flex', gap: 2 }}>
             <NavButton
               component={RouterLink}
-              to="/"
+              to="/course_App"
               className="nav-link"
               sx={{
-                borderBottom: location.pathname === '/' ? '2px solid white' : 'none',
+                borderBottom: location.pathname === '/course_App' ? '2px solid white' : 'none',
               }}
             >
               Explore Courses
