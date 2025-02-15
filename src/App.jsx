@@ -52,7 +52,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<CourseList />} />
+            <Route path="/course_App" element={<CourseList />} />
             <Route path="/course/:id" element={<CourseDetails />} />
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
